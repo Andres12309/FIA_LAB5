@@ -44,9 +44,9 @@ function execute(input) {
         certainty = Math.floor(results.kardashian * 100)
     }
 
-    result = "Hay mas" + certainty + "probabilidad de que este tweet haya sido escrito por" + output;
+    result = "Hay mas,_ " + certainty + " _probabilidad de que este tweet haya sido escrito por" + output;
     document.getElementById("resultado").setAttribute("value",result)
-    return "Hay mas" + certainty + "probabilidad de que este tweet haya sido escrito por" + output;
+    return "Hay mas,_ " + certainty + " _probabilidad de que este tweet haya sido escrito por" + output;
 }
 
 train(trainingData);
